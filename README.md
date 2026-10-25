@@ -3,6 +3,7 @@
 ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat&logo=powerbi&logoColor=black)
 ![DAX](https://img.shields.io/badge/DAX-ratios%20financiers-informational?style=flat)
 ![Power Query](https://img.shields.io/badge/Power%20Query-ETL-blue?style=flat)
+![CSV](https://img.shields.io/badge/Données-CSV-lightgrey?style=flat)
 ![Finance](https://img.shields.io/badge/Analyse-financière-6A1B9A?style=flat)
 
 > Tableau de bord Power BI de **3 pages** pour évaluer la santé financière de l'entreprise NOVATEK sur 6 exercices (2018-2023) : bilan, compte de résultat et portefeuille clients.
@@ -56,19 +57,29 @@
 
 ## 🖼️ Aperçu
 
-*(captures du dashboard — ajoutées après import des fichiers)*
+📄 **[Voir le dashboard complet en PDF (3 pages)](dashboard/DASHBOARD_ANALYSE%20DE%20PERFORMANCES%20FINANCIERES%20ET%20SANTE%20ECONOMIQUE%20NOVATEK.pdf)**
 
-## 📁 Contenu du dépôt
+## 📁 Structure du dépôt
 
-| Élément | Description |
+```
+novatek-analyse-financiere-powerbi/
+├── dashboard/       # Fichier Power BI (.pbix) et export PDF
+├── data/            # Bilan, compte de résultat, dimension clients (CSV)
+├── documentation/   # Présentation du projet et mesures DAX
+└── README.md
+```
+
+| Élément | Lien |
 |---|---|
-| `dashboard/` | Tableau de bord Power BI (`.pbix`) et export PDF |
-| `documentation/` | Documentation du projet et code DAX |
-| `data/` | Jeux de données CSV utilisés par le tableau de bord |
+| Dashboard Power BI | [`.pbix`](dashboard/DASHBOARD%20POWER%20BI_ANALYSE%20DE%20PERFORMANCES%20FINANCIERES%20ET%20SANTE%20ECONOMIQUE%20NOVATEK.pbix) |
+| Dashboard (PDF) | [PDF](dashboard/DASHBOARD_ANALYSE%20DE%20PERFORMANCES%20FINANCIERES%20ET%20SANTE%20ECONOMIQUE%20NOVATEK.pdf) |
+| Données | [Bilan](data/Bilan_Entreprise.csv) · [Compte de résultat](data/Compte_de_resultat.csv) · [Clients](data/Dimension_Clients.csv) |
+| Mesures DAX | [Code DAX](documentation/Dax%20code%20.pdf) |
+| Présentation du projet | [Projet](documentation/Projet%20.pdf) |
 
 ## ▶️ Utilisation
 
-Ouvrir le fichier `.pbix` dans `dashboard/` avec **Power BI Desktop**, puis filtrer par exercice, segment ou pays.
+Ouvrir le fichier `.pbix` avec **Power BI Desktop**, puis filtrer par exercice, segment ou pays.
 
 ## 👤 Auteur
 
