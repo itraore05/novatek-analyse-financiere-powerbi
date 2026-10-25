@@ -62,13 +62,13 @@
 
 | Élément | Description |
 |---|---|
-| Dashboard Power BI (`.pbix`) | Tableau de bord interactif (3 pages) |
-| Dashboard (PDF) | Export PDF du tableau de bord |
-| `Documentaion/` | Documentation du projet |
+| `dashboard/` | Tableau de bord Power BI (`.pbix`) et export PDF |
+| `documentation/` | Documentation du projet et code DAX |
+| `data/` | Jeux de données CSV utilisés par le tableau de bord |
 
 ## ▶️ Utilisation
 
-Ouvrir le fichier `.pbix` avec **Power BI Desktop**, puis filtrer par exercice, segment ou pays.
+Ouvrir le fichier `.pbix` dans `dashboard/` avec **Power BI Desktop**, puis filtrer par exercice, segment ou pays.
 
 ## 👤 Auteur
 
