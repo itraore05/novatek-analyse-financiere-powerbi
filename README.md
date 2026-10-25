@@ -57,12 +57,6 @@
 
 ## 🖼️ Aperçu
 
-![Bilan financier](images/page1.png)
-
-| Compte de résultat | Portefeuille clients |
-|---|---|
-| ![](images/page2.png) | ![](images/page3.png) |
-
 📄 **[Voir le dashboard complet en PDF (3 pages)](dashboard/DASHBOARD_ANALYSE%20DE%20PERFORMANCES%20FINANCIERES%20ET%20SANTE%20ECONOMIQUE%20NOVATEK.pdf)**
 
 ## 📁 Structure du dépôt
@@ -72,7 +66,6 @@ novatek-analyse-financiere-powerbi/
 ├── dashboard/       # Fichier Power BI (.pbix) et export PDF
 ├── data/            # Bilan, compte de résultat, dimension clients (CSV)
 ├── documentation/   # Présentation du projet et mesures DAX
-├── images/          # Captures des 3 pages du dashboard
 └── README.md
 ```
 
